@@ -14,10 +14,10 @@
 ## Установка и запуск
 
 ```bash
-git clone https://github.com/your_username/telegram-sqlite-bot.git
-cd telegram-sqlite-bot
+git clone https://github.com/hexwhyzet/yetAnotherMicroProject.git
+cd yetAnotherMicroProject
 docker build -t telegram_bot_container .
-docker run -d --name telegram_bot -e API_TOKEN=your_telegram_api_token telegram_bot_container
+docker run -d --name telegram_bot -e API_TOKEN=<your-secret-telegram-bot-token> telegram_bot_container
 ```
 
 ## Тестовые базы данных
