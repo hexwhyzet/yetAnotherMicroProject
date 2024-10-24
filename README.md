@@ -27,4 +27,4 @@ docker run -d --name telegram_bot -e API_TOKEN=your_telegram_api_token telegram_
 
 ## Демонстрация работы
 
-<video src="./demo/video.mp4" width="600" controls></video>
+<video src="./demo/video.mov" width="600" controls></video>
